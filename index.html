@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+    <h1 >Total Coins: <span id="total-coins">0</span></h1>
+    <h2>Available Coins: <span id=available-coins>0</span></h2>
+    <div>
+        <button onclick="addCoins()" id="main-button">Click me!</button>
+    </div>
+    <h4>Upgrades:</h4>
+    <div> <span>1x upgrades: <span id="small-upgrade">0</span></span><span>, current price: <span id="small-price">0</span></span></div>
+    <div><span>10x upgrades: <span id="big-upgrade">0</span></span><span>, current price: <span id="big-price">0</span></span></div>
+<div>
+    <button disabled onclick="smallUpgrade()" id="buy-small-upgrade">Buy 1x upgade</button>
+    <button  disabled onclick="bigUpgrade()" id="buy-big-upgrade">Buy 10x upgade</button>
+</div>
+<script src="js/main.js"></script>
+</body>
+</html>
